@@ -1,0 +1,115 @@
+/* reset margin, padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+/* body */
+.banner {
+  height: 825px;
+  /* width: 500px; */
+  background: url("./image/banner.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.banner .navigation {
+  position: relative;
+  height: 80px;
+  width: 80%;
+  text-align: right;
+  /* display: flex; */
+  justify-content: center;
+  margin: 0 auto;
+  padding-right: 30px;
+}
+.banner .navigation .about,
+.banner .navigation .signin {
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.banner .navigation .about {
+  color: black;
+}
+.banner .navigation .signin {
+  color: green;
+}
+.banner .navigation .about:hover,
+.banner .navigation .signin:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.banner .navigation .signin {
+  margin-right: 25px;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+.banner .logo {
+  background: url("./image/hapoERP.png") center center no-repeat;
+  margin-top: 40px;
+  height: 70px;
+}
+.banner .content-center .left,
+.banner .content-center .center,
+.banner .content-center .right {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+.banner .content-center .left img,
+.banner .content-center .left img,
+.banner .content-center .left img,
+.banner .content-center .center img,
+.banner .content-center .center img,
+.banner .content-center .center img,
+.banner .content-center .right img,
+.banner .content-center .right img,
+.banner .content-center .right img {
+  height: 40px;
+  width: 40px;
+}
+.banner .content-center .left span,
+.banner .content-center .left span,
+.banner .content-center .left span,
+.banner .content-center .center span,
+.banner .content-center .center span,
+.banner .content-center .center span,
+.banner .content-center .right span,
+.banner .content-center .right span,
+.banner .content-center .right span {
+  display: block;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.banner .text span {
+  font-size: 20px;
+  font-style: italic;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now .btn {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid green;
+  margin-top: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
